@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  min-height: 100%;
+}
+
+body {
+  background: #2e2e2e;
+  background: -moz-linear-gradient(to bottom left, #2e2e2e 0%, #101010 80%);
+  background: -o-linear-gradient(to bottom left, #2e2e2e 0%, #101010 80%);
+  background: -webkit-linear-gradient(to bottom left, #2e2e2e 0%, #101010 80%);
+  background: -ms-linear-gradient(to bottom left, #2e2e2e 0%, #101010 80%);
+  background: linear-gradient(to bottom left, #2e2e2e 0%, #101010 85%);
+}
+
+.container {
+  display: flex;
+  padding: 0.1rem;
+}
+
+.centered {
+  justify-content: center;
+  margin: auto;
+}
